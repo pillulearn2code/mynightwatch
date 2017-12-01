@@ -1,22 +1,47 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="0"
-            failures="0"
+<testsuites errors="1"
+            failures="1"
             tests="1">
 
   <testsuite name="google"
-    errors="0" failures="0" hostname="" id="" package="google" skipped="0"
-    tests="1" time="6.983" timestamp="Mon, 20 Nov 2017 15:52:52 GMT">
+    errors="1" failures="1" hostname="" id="" package="google" skipped="0"
+    tests="1" time="3.290" timestamp="Fri, 01 Dec 2017 16:02:01 GMT">
   
-    <testcase name="Demo test Google" classname="google" time="6.983" assertions="3">
+    <testcase name="demoTestGoogle" classname="google" time="3.290" assertions="2">
 
-    
-
-    
+      <failure message="Timed out while waiting for element &lt;input[name=btnK]&gt; to be present for 1000 milliseconds.">    at Object.__dirname.demoTestGoogle (/Users/ajanta.bisht/mynightwatch/test/scenario/google.js:7:10)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)</failure>
 
     
     </testcase>
   
 
+  
+    <system-err>
+        Error while running [Demosite / selectProduct]:
+
+  LocalError: Key is required to start local testing!
+    at /Users/ajanta.bisht/mynightwatch/node_modules/browserstack-local/lib/Local.js:57:20
+    at ChildProcess.exithandler (child_process.js:193:7)
+    at emitTwo (events.js:100:13)
+    at ChildProcess.emit (events.js:185:7)
+    at maybeClose (internal/child_process.js:850:16)
+    at Socket.&lt;anonymous&gt; (internal/child_process.js:323:11)
+    at emitOne (events.js:90:13)
+    at Socket.emit (events.js:182:7)
+    at Pipe._onclose (net.js:484:12)
+ERROR: Unable to locate element: &quot;input[type=text]&quot; using: css selector
+    at Object.__dirname.demoTestGoogle (/Users/ajanta.bisht/mynightwatch/test/scenario/google.js:6:10)
+    at Module.call (/Users/ajanta.bisht/mynightwatch/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/ajanta.bisht/mynightwatch/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/ajanta.bisht/mynightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/ajanta.bisht/mynightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/ajanta.bisht/mynightwatch/node_modules/q/q.js:796:13)
+    at /Users/ajanta.bisht/mynightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/ajanta.bisht/mynightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/ajanta.bisht/mynightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    </system-err>
   
 
   

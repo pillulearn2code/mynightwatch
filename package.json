@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     
-    "tests": "./node_modules/.bin/nightwatch -c nightwatch.json"
+    "tests": "nightwatch -c /config/nightwatch.conf.js",
+    "browserStack":"nightwatch -c config/nightwatch-browserstack.conf.js"
   },
   "author": "",
   "license": "ISC",

@@ -13,3 +13,9 @@
 
 
 NOTE: In this project we are running test scenarios manually.
+
+
+For Browserstack configuration I used below documants 
+https://www.browserstack.com/automate/nightwatch
+
+

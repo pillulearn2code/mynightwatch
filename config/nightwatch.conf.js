@@ -1,7 +1,7 @@
-{
+module.exports ={
   "src_folders" : ["./test/scenario"],
   "output_folder" : "./test/reports",
-  "custom_commands_path" : "",
+  "custom_commands_path" : "./scripts",
   "page_objects_path" : "",
   "custom_assertions_path" : "",
   "globals_path" : "",
@@ -25,8 +25,8 @@
         "javascriptEnabled" : true
       }
     }
-    
   }
+  
 }
 
 

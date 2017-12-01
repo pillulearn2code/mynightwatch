@@ -10,8 +10,8 @@ const BROWSERSTACK_CONFIG = {
   test_settings: {
     default: {
       desiredCapabilities: {
-        'browserstack.user': 'kcotester1',
-        'browserstack.key': 'UpdbXi87HkxhjzPb4cTk',
+        'browserstack.user': '',
+        'browserstack.key': '',
         'browserstack.local': false,
         browser: 'chrome',
         acceptSslCerts: true
